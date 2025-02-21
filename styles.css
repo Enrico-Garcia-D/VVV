@@ -14,7 +14,7 @@ body {
     background: linear-gradient(180deg, #F5DEB3, #EED9C4, #C2A778);
     margin: 10vh auto;
     padding: 20px;
-    border-radius: 7px;
+    border-radius: 15px;
     justify-content: center;
     align-items: center;
     font-family: 'Dancing Script', cursive;
@@ -32,7 +32,7 @@ body {
 
 @media (max-width: 600px) {
     .my-div {
-        margin: 5vh auto; /* Reduce top/bottom margin */
-        padding: 15px;
+        margin: 15vh auto; 
+        padding: 20px;
     }
 }
