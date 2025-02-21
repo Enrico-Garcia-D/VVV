@@ -14,7 +14,7 @@ body {
 .box{
     max-width: 80%;
     background: linear-gradient(180deg, #F5DEB3, #EED9C4, #C2A778);
-    margin: 5vw;
+    margin: 10vh auto;
     padding: 20px;
     border-radius: 7px;
     justify-content: center;
@@ -24,6 +24,7 @@ body {
     letter-spacing: normal;
     color: #2F4F4F;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: auto;
 }
 @keyframes gradientMove {
     0% { background-position: 0% 50%; }
