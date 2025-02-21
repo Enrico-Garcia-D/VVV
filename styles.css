@@ -7,6 +7,7 @@ body {
     height: 100vh;
     background-color: #f4f4f4;
     margin: 0;
+    padding: 10px;
     background: linear-gradient(45deg, #E32636, #C70039, #D2042D, #B22222);
     animation: gradientMove 3s infinite linear;
 }
