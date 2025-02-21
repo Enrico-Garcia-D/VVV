@@ -32,3 +32,10 @@ body {
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
+
+@media (max-width: 600px) {
+    .my-div {
+        margin: 5vh auto; /* Reduce top/bottom margin */
+        padding: 15px;
+    }
+}
