@@ -14,7 +14,7 @@ body {
 .box{
     max-width: 80%;
     background: linear-gradient(180deg, #F5DEB3, #EED9C4, #C2A778);
-    margin: 20px auto;
+    margin: 5vw;
     padding: 20px;
     border-radius: 7px;
     justify-content: center;
