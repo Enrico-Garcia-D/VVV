@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Sacramento&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    background: linear-gradient(45deg, #E32636, #C70039, #D2042D, #B22222);
+    animation: gradientMove 3s infinite linear;
+}
+
+.box{
+    max-width: fit-content;
+    background: linear-gradient(180deg, #F5DEB3, #EED9C4, #C2A778);
+    margin: 40px;
+    padding: 20px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    letter-spacing: normal;
+    color: #2F4F4F;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
